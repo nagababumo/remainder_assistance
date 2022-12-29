@@ -1,14 +1,3 @@
 # remainder_assistance
 #a python project of remainder
-import time
-import winsound
-print("What shall I remind you about?")
-text = str(input())
-print("In how many minutes?")
-local_time = float(input())
-local_time = local_time * 60
-time.sleep(local_time)
-print(text)
-duration = 20000 # milliseconds
-freq = 5000 # Hz
-winsound.Beep(freq,duration)
+i did this project with the help of ineuron at the time of first year hackthon in b.tech. 
